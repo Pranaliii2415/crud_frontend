@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
 
-  const API = "http://localhost:5000/products";
+  const API = "https://crud-backend-b7x8.onrender.com/products";
 
   const [products, setProducts] = useState([]);
 
